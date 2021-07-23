@@ -1,6 +1,6 @@
 import "./App.css";
 import CardList from "./models/CardList";
-import banner from "./utils/images/banner.jpg";
+import banner from "./utils/images/banner1.jpg";
 import Footer from "./models/Footer";
 function App() {
   return (
