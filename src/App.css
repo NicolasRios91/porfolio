@@ -6,11 +6,13 @@ body {
 }
 .App {
   position: relative;
+  min-height: 940px;
+  max-height: 100%;
   min-width: 360px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  min-height: 940px;
+
   width: 50%;
   margin: auto;
   background-color: rgb(66, 73, 84);
@@ -28,7 +30,7 @@ body {
 }
 .bannerImg {
   width: 100%;
-  max-height: 280px;
+  max-height: 220px;
 }
 
 .App-link {
@@ -85,6 +87,7 @@ body {
 }
 
 .icon:hover {
+  transition: 0.7s;
   color: rgb(255, 184, 75);
 }
 
@@ -117,6 +120,9 @@ body {
 @media only screen and (max-width: 650px) {
   .card-container {
     flex: 1 0 41%;
+  }
+  .app-footer {
+    position: relative;
   }
 }
 
