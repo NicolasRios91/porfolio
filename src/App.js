@@ -1,18 +1,23 @@
 import "./App.css";
-import CardList from "./models/CardList";
-import banner from "./utils/images/banner1.jpg";
-import Footer from "./models/Footer";
+import CardList from "./models/card-list";
+import Footer from "./models/footer";
+import Hero from "./models/hero";
+import About from "./models/about";
+import { Skills } from "./models/skills";
+import { Form } from "./models/contact";
+
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <img src={banner} className="bannerImg" />
-      </div>
-      <div className="card-list">
+    <>
+      <Hero />
+      <div className="App">
+        <About />
+        <Skills />
         <CardList />
+        <Form />
       </div>
       <Footer />
-    </div>
+    </>
   );
 }
 
