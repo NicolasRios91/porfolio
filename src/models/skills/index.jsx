@@ -1,6 +1,6 @@
 import { Container } from "../../components/common/styles";
 import icons from "../../utils/icons";
-import { SkillsWrapper, IconsWrapper } from "./styles";
+import { IconsWrapper } from "./styles";
 
 export const Skills = () => (
   <Container backgroundColor>
