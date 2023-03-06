@@ -17,7 +17,7 @@ export const Form = () => {
       <form ref={form} onSubmit={handleSubmit}>
         <FormWrapper>
           {inputFields.map((field) => (
-            <div className="input_container">
+            <div className="input_container" key={field.name}>
               <label htmlFor={field.name} aria-label={field.name}>
                 {field.name}
               </label>
